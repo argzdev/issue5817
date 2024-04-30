@@ -72,7 +72,6 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-inappmessaging-display") {
         exclude(group = "com.google.protobuf", module = "protobuf-javalite")
-        exclude(group = "com.google.protobuf", module = "protobuf-java")
         exclude(group = "com.google.firebase", module = "protolite-well-known-types")
     }
     implementation("io.grpc:grpc-protobuf:1.60.0")
